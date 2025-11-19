@@ -1,32 +1,77 @@
-# Prerequisites
-*.d
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
+# ========================
+# Build directories & artifacts
+# ========================
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.out
+*.exe
+*.app
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
+*.log
+*.tmp
+*.swp
+*~
 
-# Executables
-*.exe
-*.out
-*.app
+# ========================
+# IDEs
+# ========================
+.vscode/
+.idea/
+*.iml
+*.user
+*.suo
+*.ncb
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# ========================
+# Qt Creator
+# ========================
+*.pro.user*
+*.qbs.user*
+*.moc
+*.rcc
+*.ui.h
+
+# ========================
+# P2P / Crypto private files
+# ========================
+*.pem
+*.key
+*.crt
+*.p12
+*.p2p_keys_*
+*.p2p_known_hosts_*
+
+# ========================
+# Core / stub / scripts
+# ========================
+stub/*.o
+stub/*.bin
+core/**/*.o
+core/**/*.out
+scripts/**/*.log
+scripts/**/*.tmp
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.old
+p2p
